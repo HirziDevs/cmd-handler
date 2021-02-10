@@ -1,23 +1,17 @@
 {
-  "name": "ticket-bot",
-  "version": "1.0.0",
-  "description": "Create a ticket for you and the staff to solve the problem",
+  "name": "custom-bot",
+  "version": "6.0.0",
+  "description": "Custom Bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "GARUDA_2703#6266,HirziGamingYT#8701",
+  "author": "HirziGamingYT#8701",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.1",
-    "humanize-duration": "^3.25.1",
-    "install": "^0.13.0",
-    "minecraft-server-util": "^3.4.2",
-    "mysql": "^2.18.1",
     "npm": "^6.14.10",
     "quick.db": "^7.1.3",
-    "rcon-client": "^4.2.3",
-    "undefined": "^0.1.0"
   },
   "engines": {
     "node": "12.x"
