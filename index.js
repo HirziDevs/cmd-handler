@@ -3,7 +3,6 @@ const fs = require('fs');
 const client = new Client();
 const config = require("./config.json");
 const Discord = require("discord.js");
-const db = require("quick.db");
 client.config = config;
 
 fs.readdir('./events/', (err, files) => {
