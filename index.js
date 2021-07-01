@@ -1,9 +1,8 @@
-const { Client, Collection } = require('discord.js');
+const { Client, Intents, Collection } = require('discord.js');
+const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 const fs = require('fs');
-const client = new Client();
 const config = require("./config.json");
 const Discord = require("discord.js");
-const db = require("quick.db");
 client.config = config;
 
 fs.readdir('./events/', (err, files) => {
